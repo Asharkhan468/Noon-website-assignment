@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+
+    --yellow:#ffed14;
+    --white:#fcfbf4;
+    --grey: #808080;
+}
+
+
+
+
+/* Navbar styling started */
+
+.width-1{
+    width: 100%;
+}
+
+.bg-yellow{
+    background-color:var(--yellow);
+}
+
+input{
+    width:700px;
+      
+}
+
+.fa-solid{
+    padding: 10px;
+    font-size: 20px;
+    color:var(--grey);
+}
+
+/* Navbar styling ended */
+
+
+/* Category styling started */
+
+.list-style{
+    list-style: none;
+}
+
+ul li{
+    padding:15px;
+}
+
+.bg-white{
+    background-color: var(--white);
+
+}
+
+
+
+
+
+
+
+/* Banner styling ended */
+
+
+
+
+
+/* Category styling started */
+
+
+
+/* crousel styling started */
+
+.width-3{
+    max-width: 70%;
+    display: block;
+}
+
+.width-4{
+    max-width: 30%;
+    display: block;
+}
+
+
+
+
+
+
+/* crousel styling ended */
+
+
+.max-width{
+    max-width: 100%;
+    display: block;
+}
+
+
+
+
+
+
+
+
