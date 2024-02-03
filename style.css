@@ -173,9 +173,13 @@ ul li{
     
 }
 
-.fa-solid{
+.fa-star{
     color: #00b027;
     font-size: 10px;
+}
+
+.font-size{
+    font-size: 12px;
 }
 
 
