@@ -2,13 +2,22 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
+
+body{
+    margin: 0;
+    background-color: var(--ofwhite);
+}
+
 
 :root{
 
     --yellow:#ffed14;
     --white:#fcfbf4;
     --grey: #808080;
+    --ofwhite:#f7f7fa;
+    --half-white:#f5f4f4;
 }
 
 
@@ -26,6 +35,9 @@
 
 input{
     width:700px;
+    padding: 12px;
+    border: 0px;
+
       
 }
 
@@ -72,12 +84,12 @@ ul li{
 /* crousel styling started */
 
 .width-3{
-    max-width: 70%;
+    max-width: 80%;
     display: block;
 }
 
 .width-4{
-    max-width: 30%;
+    max-width: 20%;
     display: block;
 }
 
@@ -89,10 +101,86 @@ ul li{
 /* crousel styling ended */
 
 
-.max-width{
-    max-width: 100%;
+
+
+/* Featured images styling started */
+
+
+
+
+
+
+
+
+/* Featured images styling ended */
+
+
+/* more reason to shop styling started */
+
+
+
+
+/* more reason to shop styling started */
+
+
+
+
+.width{
+    max-width:100%;
     display: block;
 }
+
+.bg-color-grish{
+    background-color: var(--half-white);
+}
+
+
+.width-5{
+
+    width: 50%;
+
+}
+
+
+.bg-color-grish{
+    background-color: #f5f4f4;
+}
+
+
+.text-bold{
+    font-weight: bold;
+}
+
+.phone-deal{
+    background-color: var(--yellow);
+    color: #e42921;
+}
+
+.border-r{
+    border-radius: 6px;
+}
+
+
+/* recomded styling started */
+
+
+.box{
+    /* border: 1px solid #808080; */
+    height: auto;
+    width: 16.66%;
+    background-color: #f0f4fd;
+    
+    
+}
+
+.fa-solid{
+    color: #00b027;
+    font-size: 10px;
+}
+
+
+
+/* recomded styling ended */
 
 
 
