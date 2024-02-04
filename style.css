@@ -165,8 +165,7 @@ ul li{
 
 
 .box{
-    /* border: 1px solid #808080; */
-    height: auto;
+    height:600px;
     width: 16.66%;
     background-color: #f0f4fd;
     
@@ -182,9 +181,79 @@ ul li{
     font-size: 12px;
 }
 
+.text-green{
+    color: #00b027;
+}
+
+.text-orange{
+    color: #f9802c;
+}
+
+.market-icon{
+    height: 16px;
+    width: auto;
+}
+
+
 
 
 /* recomded styling ended */
+
+
+
+/* Valentine store styling started */
+
+
+
+.bg-pink{
+    background-color: #ffede4;
+}
+
+.image-width{
+    width: 380px;
+}
+
+
+/* Valentine store styling ended */
+
+
+/* ad banner styling started */
+
+.width-100{
+    width: 100%;
+}
+
+/* ad banner styling ended */
+
+
+
+
+
+
+/* Trending deals electronics styling started */
+
+
+.view-btn{
+    padding: 7.5px 15px;
+    margin: 7.5px 0px 7.5px 15px;
+}
+
+/* Trending deals electronics styling ended */
+
+
+
+/* Deals only on moon styling started */
+
+
+.boxes{
+    
+    width: 25%;
+    background-color: #f7f7f7
+}
+
+
+
+/* Deals only on moon styling started */
 
 
 
