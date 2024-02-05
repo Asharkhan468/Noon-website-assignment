@@ -125,6 +125,7 @@ ul li{
 
 
 
+
 .width{
     max-width:100%;
     display: block;
@@ -246,9 +247,22 @@ ul li{
 
 
 .boxes{
-    
+    border: 1px solid black;
     width: 25%;
-    background-color: #f7f7f7
+    
+}
+
+.bg-color-blue{
+    background-color: #ddeffa;
+}
+.image-bg{
+    background-color: #fff;
+}
+.image-style{
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    height: 16px;
 }
 
 
