@@ -47,6 +47,7 @@ input{
     color:var(--grey);
 }
 
+
 /* Navbar styling ended */
 
 
@@ -63,6 +64,10 @@ ul li{
 .bg-white{
     background-color: var(--white);
 
+}
+ .category ul :hover{
+    color: var(--yellow);
+    background-color: #000;
 }
 
 
@@ -269,6 +274,66 @@ ul li{
 
 /* Deals only on moon styling started */
 
+
+
+.font-size2{
+    font-size: 14px;
+}
+
+
+
+
+/* footer styling statred */
+
+.list-style{
+    list-style: none;
+}
+
+.fa-brands{
+    font-size: 25px;
+    margin: 5px;
+    background-color: var(--yellow);
+    color: #3e4553;
+    padding: 10px;
+    border-radius: 40px;
+ }
+
+ .icons{
+    margin: 3px;
+ }
+ 
+ .bgd-color{
+    background-color: #e2e5f1;
+ }
+ 
+ .text-grey{
+    color: #7c87a4;
+ }
+ 
+ .flex-wrap{
+    flex-wrap: wrap;
+ }
+ 
+
+/* footer styling ended */
+
+
+
+@media(max-width:768px){
+
+    .category ul li{
+        display: none;
+    }
+    .navigation{
+        display: block;
+    }
+    p{
+        font-size: 10px;
+    }
+    
+
+
+}
 
 
 
