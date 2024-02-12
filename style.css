@@ -313,6 +313,17 @@ ul li{
  .flex-wrap{
     flex-wrap: wrap;
  }
+ .fa-bars{
+    display: none;
+ }
+
+ .border{
+
+    border: 2px solid black;
+ }
+ .fixed{
+    position: fixed;
+ }
  
 
 /* footer styling ended */
@@ -325,15 +336,36 @@ ul li{
         display: none;
     }
     .navigation{
-        display: block;
+        display: none;
     }
-    p{
-        font-size: 10px;
+
+   .fa-lock{
+
+    font-size: 10px;
+   }
+    .responsive{
+        display: none;
     }
+
     
 
+    .fa-lock{
+        width:7px;
+        height: auto;
+    }
 
-}
+   
+     
+
+    
+          
+    }
+
+   
+   
+
+
+
 
 
 
